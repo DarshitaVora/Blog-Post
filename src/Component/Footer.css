@@ -1,0 +1,25 @@
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 0;
+  margin: 0;
+  font-size: 25px;
+  letter-spacing: 0.5px;
+  height: 87.5px;
+  transition: all 0.3s ease; /* smooth theme change */
+}
+
+.footer-dark {
+  background-color: #000; /* light background */
+  color: white; /* light text */
+}
+
+.footer-light {
+  background-color: rgb(9, 9, 124); /* your old dark background */
+  color: #fff; /* white text */
+}
+
+.footer b {
+  color: #ff9800; /* keep the orange for bold text */
+}

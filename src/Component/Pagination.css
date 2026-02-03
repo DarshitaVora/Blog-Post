@@ -1,0 +1,52 @@
+.pagination-ui {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin: 20px 0;
+  }
+  
+  .page-btn {
+    padding: 8px 16px;
+    border: 1px solid  rgb(9, 9, 124);
+    background-color: rgb(9, 9, 124);
+    color:  rgb(247, 247, 252);
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+   .page-btn:hover {
+    background-color:  rgb(9, 9, 124);
+    color: white;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+  } 
+  
+  .page-text {
+    font-size: 16px;
+    font-weight: 600;
+    color: #333;
+  }
+  .drop-page {
+   
+    border-radius: 6px;
+    border: 1px solid rgb(9, 9, 124);
+    background-color: rgb(9, 9, 124);
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+    outline: none;
+    padding: 8px 16px;
+    transition: all 0.3s ease;
+  }
+ 
+.page-btn:disabled {
+  background: #bfbfbf;
+  color: black;
+  cursor: not-allowed;
+  box-shadow: none;
+  opacity: 0.7;
+  font-weight: bold;
+}
+  

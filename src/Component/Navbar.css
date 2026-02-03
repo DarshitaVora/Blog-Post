@@ -1,0 +1,65 @@
+.nav-main{
+    display: flex;
+    /* background-color: rgb(9, 9, 124); */
+    justify-content:space-between;
+    height: 80px;
+    color: white;
+    align-items: center;
+    padding: 0 30px;
+}
+.nav-dark{
+   background-color: black;
+   cursor: pointer;
+}
+.nav-light{
+   background-color:  rgb(9, 9, 124);
+   cursor: pointer;
+}
+
+.logo{
+    color: aliceblue;
+    font-weight: bold;
+   font-size:30px;
+  
+}
+ .menu{  
+   font-size: 18px;
+ }
+ul{
+    display: flex;
+ }
+li{
+    list-style-type: none;
+    margin: 0 14px;
+ }
+
+ .dark{
+  display: flex;
+  align-items: center;
+  gap: 2px;
+ }
+ .Active-link{
+color: aliceblue;
+ border-bottom: 2px solid white;
+ font-weight: bold;
+ text-decoration: none;
+ 
+ }
+ .color{
+    color: aliceblue;
+    text-decoration: none;
+ }
+ .role-circle {
+    width: 30px;
+    height: 30px;
+    background: white;
+    color: #000;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-left: 8px;
+  }
+  

@@ -1,0 +1,109 @@
+
+.title{
+    text-align: center;
+    margin-top: 30px;
+    color: #2563eb;
+   
+   
+}
+
+.form-dark{
+  background-color: black;
+  cursor: pointer;
+}
+.form-light{
+  background-color:  rgb(243, 243, 250);
+  cursor: pointer;
+}
+
+.main-container {
+ border: 1px solid #2563eb;
+  padding: 10px;
+ /*  background-color: #f8faff; */
+  max-width: 700px;      
+  margin: 0 auto;    
+  border-radius: 10px;  
+  margin-top: 50px;
+}
+
+
+.main-form {
+    display: flex; 
+    flex-direction: column;
+    align-items: center; 
+    max-width: 500px;
+    margin: auto; 
+  }
+  
+.main-form input,
+.main-form textarea
+{
+  width: 110%;
+  max-width: 900px;
+  padding: 10px; 
+  margin-bottom: 15px;
+  margin-top: 10px; 
+  border: 1px solid #ccc; 
+  border-radius: 4px; 
+  box-sizing: border-box; 
+}
+
+.btnpost{
+ 
+  color:cornsilk;
+  background-color:#2563eb;
+  width: 50%; 
+  max-width: 400px;
+  padding: 10px; 
+  margin-bottom: 15px;
+  margin-top: 10px; 
+  border: 1px solid #ccc; 
+  border-radius: 4px; 
+  box-sizing: border-box; 
+}
+
+.btncancle{
+ 
+  color:cornsilk;
+  background-color: #bdbdbd;
+  width: 50%; 
+  max-width: 400px;
+  padding: 10px; 
+  margin-bottom: 15px;
+  margin-top: 10px; 
+  border: 1px solid #ccc; 
+  border-radius: 4px; 
+  box-sizing: border-box; 
+}
+
+.btn-group{
+  display: flex;
+  justify-content:center;
+  gap: 15px;
+  width: 110%;
+  max-width: 500px;
+  margin-top: 10px;
+}
+
+
+
+
+
+.bg-light-style {
+  background-color: #f8f9fa; 
+  color: #212529;            
+  min-height: 100vh;
+  padding: 20px;
+  transition: all 0.3s ease;
+}
+
+
+.bg-dark-style {
+  background-color: #121212; 
+  color: #e0e0e0;            
+  min-height: 100vh;
+  padding: 20px;
+  transition: all 0.3s ease;
+}
+
+
